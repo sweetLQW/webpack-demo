@@ -1,2 +1,2 @@
-const fun1 = require('./fun1.js');
-document.querySelector("#main").appendChild(fun1());
+const fun = require('./fun.js');
+document.querySelector("#main").appendChild(fun());

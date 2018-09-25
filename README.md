@@ -5,4 +5,6 @@ webpack案例整理
 如果想直接使用webpack命令，则需要全局和局部分别安装一下webpack和webpack-cli
 #### demo02 使用webpack-dev-server实现实时编译刷新 
 默认使用当前路径作为请求资源的路径 使用 "--content-base 文件夹/" 可以进行修改
+#### demo03 使用plugins定义插件
+
 
