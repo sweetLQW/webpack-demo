@@ -6,5 +6,9 @@ webpack案例整理
 #### demo02 使用webpack-dev-server实现实时编译刷新 
 默认使用当前路径作为请求资源的路径 使用 "--content-base 文件夹/" 可以进行修改
 #### demo03 使用plugins定义插件
+#### demo04 webpack构建生产、开发环境命令
+使用package.json中scripts命令 
+buildPro  构建生产环境
+buildDev  构建开发环境
 
 
