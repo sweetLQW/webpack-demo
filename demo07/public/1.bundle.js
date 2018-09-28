@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],[function(n,e){n.exports=function(){var n=document.createElement("div");return n.textContent="Hello World",n}}]]);

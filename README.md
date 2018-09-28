@@ -13,4 +13,7 @@ buildPro  构建生产环境
 buildDev  构建开发环境
 #### demo06 webpack多入口文件配置
 执行 npm run build 构建文件
-#### demo07 require.ensure() 按需加载
+#### demo07 require.ensure() 代码拆分
+require.ensure告诉webpack，./a.js文件应该从bundle.js中分离出来，放入单独的chunk文件(0.bundle.js)
+#### demo08 使用bundle-loader实现代码拆分
+budle-loader 同步操作 拿到exports返回才继续向下走
